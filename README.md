@@ -1,2 +1,3 @@
-# goit-js-hw-6-practice
+# goit-js-hw-06
+
  
