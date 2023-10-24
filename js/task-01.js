@@ -1,8 +1,8 @@
 const categoryElements = document.querySelector('#categories').children;
 console.log(`Number of categories: ${categoryElements.length}`);
 [...categoryElements].forEach(element => {
-  console.log(`Category: ${element.querySelector('h2').textContent}`);
-  console.log(`Elements: ${element.querySelector('li').length}`);
+  console.log(`Category: ${element.querySelector("h2").textContent}`);
+  console.log(`Elements: ${element.querySelectorAll("li").length}`);
 });
 
 // Напиши скрипт, який:
